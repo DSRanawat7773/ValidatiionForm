@@ -1,14 +1,18 @@
 {
+  "homepage": "https://DSRanawat7773.github.io/ValidatiionForm",
   "name": "assignment-1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "preact": "^10.19.6",
     "react-router-dom": "^6.23.1"
   },
